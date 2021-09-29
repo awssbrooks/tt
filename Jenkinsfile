@@ -24,7 +24,7 @@ pipeline {
     stage("deploy") {
       
         steps {
-             echo "deployinmg the application"
+             echo "deployinmg the application in prod"
         }
     }
     

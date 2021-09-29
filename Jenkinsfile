@@ -17,7 +17,7 @@ pipeline {
     stage("test") {
       
         steps {
-            echo "testing the application today"
+            echo "testing the application in qa"
         }
     }
     

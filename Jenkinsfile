@@ -10,7 +10,7 @@ pipeline {
             echo "building the application for dev"
           script {
               def test = 2 +2 > 3 ? 'waoo' : 'not cool'
-              echo test is successful
+              echo test
           }
         }
      }
